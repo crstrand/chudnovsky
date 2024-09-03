@@ -1,4 +1,8 @@
 #Note: For extreme calculations, other code can be used to run on a GPU, which is much faster than this.
+# The code for the algorithm taken as-is from Wikipedia https://en.wikipedia.org/wiki/Chudnovsky_algorithm
+# precision of  2700 decimal places achieved at n=191  calc time:  5506264 ns (5.5ms)
+# Processor	Intel(R) Xeon(R) E-2176M  CPU @ 2.70GHz, 2712 Mhz, 6 Core(s), 12 Logical Processor(s)
+
 import decimal
 import time
 
